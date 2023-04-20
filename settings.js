@@ -19,23 +19,23 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-creator = '乂𝘼𝙡𝙞𝙥乂' // Nama 
+creator = '乂𝘼𝙡𝙞𝙛乂' // Nama 
 port = 8080 //port host
 LimitApikey = 200 // Limit Apikey default
 
 //___________ ┏  Database Mongodb Setting  ┓ ___________\\
 
-keymongodb = process.env.mongodb //example "mongodb+srv://user:password@name_database.mongodb.net/?retryWrites=true&w=majority";
+keymongodb = process.env.mongodb //example "mongodb+srv://Fahrozaa:Alifcahpasoan12#@custer1.o7grfuh.mongodb.net/?retryWrites=true&w=majority";
 
 //___________ ┏  SMTP Setting  ┓ ___________\\
 
 //note service SMTP Gmail Tidak Boleh Send Kat Temp Email Kalau mahu pakai temp email buat di service lain
 usetempemail = false // kalau true boleh sing up pakai email temp kalau pakai service gmail pakai false je 
 servicesmtp = 'Gmail'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 limit sendinblue 300 free. List service smtp : https://nodemailer.com/smtp/well-known/
-sendemail = process.env.sendemail //Email SMTP
+sendemail = fahrozabot.verifikasi@gmail.com //Email SMTP
 fromsendemail = process.env.fromsendemail // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
-sendpwmail = process.env.sendpwmail // Password Email SMTP
-domain = 'alpis.eu.org'// domain website tanpa http or https
+sendpwmail = dphpflgwdcbwmxhb // Password Email SMTP
+domain = 'Alifafvedfahroza.site'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
